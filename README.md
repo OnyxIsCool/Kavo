@@ -12,12 +12,12 @@ SerpentTheme
 
 ### Getting the Loader
 ```lua
-local Kavo = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/OnyxIsCool/Kavo/main/Source.lua", true))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/OnyxIsCool/Kavo/refs/heads/main/KavoUI_Source.lua"))()
 ```
 
 ### Creating an Window
 ```lua
-local Window = Kavo.CreateLib("TITLE", "DarkTheme")
+local Window = Library.CreateLib("TITLE", "DarkTheme")
 ```
 
 Themes:
